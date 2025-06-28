@@ -9,7 +9,7 @@ fn main() {
     println!("{}", z); // prints initial value, 0
 
     while i == 1 { // infinite loop
-        while z <= 2600 { // actual loop
+        while z <= 1800000000 { // actual loop
             println!("{}", x);
 
             z = x + y;
